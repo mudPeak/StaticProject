@@ -1,0 +1,113 @@
+.tlayer1 a img {
+    width: 30%;
+}
+.tlayer2 a img,.tlayer3 a img{
+    width: 10%;
+}
+.tlayer2{
+    top: 37%;
+}
+.tlayer3{
+    top: 40%;
+}
+.carousel-inner{
+    height: 590px;
+}
+.info{
+    font-size: 40px;
+    margin: 10px 0 3px;
+}
+.media-phone{
+    margin: 40px 0;
+}
+.media-bottom{
+    padding-bottom: 80px;
+}
+.cont-info{
+    padding:0 40px;
+}
+.cont-sty{
+    margin-top: 0;
+}
+.login-info{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.phone1 img,.phone2 img,.phone3 img,.phone4 img{
+    width: 100%;
+}
+.use{
+    padding:0 25px;
+}
+.use p{
+    color:#ddd;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.use p.txt-lf{
+    text-align: left;
+    padding: 0 12px;
+}
+.trend h4{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.trend-btn1{
+    margin-top: 40px;
+}
+.use p.txt-intr{
+    font-size: 18px;
+}
+.show{
+    margin-top: 0;
+}
+.exhibition{
+    font-size: 21px;
+    margin-top: 20px;
+}
+.programe{
+    padding-bottom: 50px;
+}
+.programe div{
+    font-size: 33px;
+}
+.navinfo{
+    padding: 0;
+}
+.span-sty{
+    margin:0 15px;
+}
+.programe p.programe-txt{
+    text-align: left;
+    padding-left: 10px;
+}
+#navbar-collapse-1{
+    width: 100%;
+}
+#navbar-collapse-1 ul.navbar-nav{
+    margin: 0;
+}
+#navbar-collapse-1 ul li{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    border-top: 1px solid #fff;
+}
+#navbar-collapse-1 ul li a{
+    display: inline-block;
+    width: 100%;
+}
+#hide-box1>img{
+    margin-bottom: 58px;
+}
+#hide-box3>img{
+    margin-bottom: 63px;
+}
+#hide-box1 .hide-box{
+    bottom: 10px;
+}
+#hide-box3 .hide-box{
+    bottom: 10px;
+}

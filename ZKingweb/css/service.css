@@ -1,0 +1,80 @@
+*{padding: 0;margin: 0;}
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+h2,h3,div,p{padding: 0;margin: 0;}
+ul,li{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "微软雅黑";
+    letter-spacing: 1px;
+}
+.mynavbar{
+    border-bottom-width: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+#mymenu ul li a:hover{
+    color:#e7bc0e;
+}
+.inner{
+    position: relative;
+}
+.service-item-info{
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 8%;
+}
+.service-item-info h3{
+    color: #ff8e0e;
+}
+.service-item-info p{
+    color: #ffffff;
+    margin-top: 60px;
+}
+.service-item-info a{
+    display: block;
+    color:#00a0e9;
+    margin-top: 60px;
+}
+.service-item-pic img{
+    width: 100%;
+    height: 100%;
+}
+.service-item1{
+    background: #191919;
+    padding:40px 0;
+    position: relative;
+}
+.service-item1 .inner{
+    top:16%;
+}
+.service-item2 .inner{
+    top:9.5%;
+}
+.service-item1 .service-item-info{
+    float: left;
+}
+.service-item1 .service-item-pic{
+    float: right;
+}
+.service-item2{
+    background: #222222;
+    padding:40px 0;
+}
+.service-item2 .service-item-info{
+    float: right;
+}
+.service-item2 .service-item-pic{
+    float: left;
+}
+footer{
+    height: 40px;
+    line-height: 40px;
+    background: #191919;
+    color: #495463;
+    font-size: 14px;
+    text-align: center;
+}

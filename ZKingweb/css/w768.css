@@ -1,0 +1,62 @@
+.sevicelist{
+    margin-left:-12px;
+}
+.sevices4{
+    margin-left:28px;
+}
+.servicebg{
+    padding-top: 30px;
+}
+.carousel-control>span{
+    top:45px;
+}
+.info{
+    padding:30px 15px 0;
+}
+.info .more{
+    margin-top:10px;
+}
+.circle img{
+    width: 150px;
+}
+.scul>div:nth-child(3) img,.scul>div:nth-child(4) img{
+    margin-top: 20px;
+}
+.development{
+    padding-bottom: 250px;
+}
+.historyinfo{
+    padding-top: 20px;
+}
+.priseinfo>ul{
+    display: block;
+    width:100%;
+}
+.priseinfo>ul>li{
+    width:100%;
+}
+.newsbg{
+    padding-bottom:0;
+}
+.newsitem{
+    width:100%;
+    height:auto;
+    font-size: 16px;
+}
+.newsitem>span{
+    margin-right: 0;
+    font-size: 25px;
+    width:60px;
+    height:60px;
+    line-height: 60px;
+}
+.blackbg{
+    margin-top:30px;
+}
+.newslist>li{
+    padding-bottom: 0;
+    border-width:0;
+}
+.newslist>li:not(:nth-child(1)){
+    margin-top: 10px;
+}

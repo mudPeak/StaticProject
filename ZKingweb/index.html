@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <title>首页</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="wow/css/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:768px)" href="css/w768.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-inverse mynavbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mymenu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand text-right" href="#">
+                    <img class="wow wobble" src="images/logo.gif" width="150px" alt="">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mymenu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="wow slideInLeft active" data-wow-delay="0.3s"><a href="index.html">首页</a></li>
+                    <li class="wow slideInLeft" data-wow-delay="0.4s"><a href="service.html">服务</a></li>
+                    <li class="wow slideInLeft" data-wow-delay="0.5s"><a href="product.html">产品案例</a></li>
+                    <li class="wow slideInLeft" data-wow-delay="0.6s"><a href="">人才孵化</a></li>
+                    <li class="wow slideInLeft" data-wow-delay="0.7s"><a href="">人才招聘</a></li>
+                    <li class="wow slideInLeft" data-wow-delay="0.8s"><a href="news.html">企业新闻</a></li>
+                    <li class="wow slideInLeft" data-wow-delay="0.9s"><a href="about-us.html">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--轮播图-->
+    <div id="mycarousel01" class="carousel slide" data-ride="carousel">
+        <!--指示器-->
+        <ol class="carousel-indicators">
+            <li data-target="#mycarousel01" data-slide-to="0" class="active">
+            </li>
+            <li data-target="#mycarousel01" data-slide-to="1" >
+            </li>
+            <li data-target="#mycarousel01" data-slide-to="2" >
+            </li>
+            <li data-target="#mycarousel01" data-slide-to="3" >
+            </li>
+            <li data-target="#mycarousel01" data-slide-to="4">
+            </li>
+        </ol>
+        <!--轮播的图片-->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="http://static.zkingsoft.com/uploadeFile/image/20170118/20170118104312_169.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/banner01.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="images/banner02.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="http://static.zkingsoft.com/uploadeFile/image/20170118/20170118110817_651.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="http://static.zkingsoft.com/uploadeFile/image/20170117/20170117175554_309.jpg" alt="">
+            </div>
+        </div>
+        <!--左右切换的按钮-->
+        <a class="left carousel-control" href="#mycarousel01" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#mycarousel01" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+    <!--主体部分-->
+    <div class="container-fluid">
+        <!--服务范围-->
+        <div class="row servicebg">
+            <div class="wow bounceInDown">
+                <h3>OUR SERVICES</h3>
+                <h3 class="service">服务范围</h3>
+            </div>
+            <div class="col-lg-10 col-lg-offset-2 col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-xs-12 sevicelist">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+                    <div class="sevices sevices1 wow bounceInLeft" data-wow-duration="0.8s">
+                        行业解决<br/>方案
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+                    <div class="sevices sevices2 wow bounceInDown" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                        移动互联网<br/>解决方案
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+                    <div class="sevices sevices3 wow wobble">
+                        AR增强实现
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 sev4">
+                    <div class="sevices sevices4 wow bounceInDown" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                        游戏开发
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-5 ">
+                    <div class="sevices sevices5 wow bounceInRight" data-wow-duration="0.8s">
+                        人才孵化
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--企业简介-->
+        <div class="introduceinfo">
+            <div class="row">
+                <div class="col-lg-12 introduce">
+                    <div class="enterprise wow bounceInDown">
+                        <span>企</span>
+                        <span>业</span>
+                        <span>简</span>
+                        <span>介</span>
+                    </div>
+                </div>
+                <div class="col-lg-12 enterprise-info">
+                    <div class="wow bounceInLeft">
+                        <img src="images/cul1.gif" class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12 current-img" alt=""/>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 info">
+                        <div class="wow bounceInRight">
+                            <p>湖南卓景京信息科技有限公司成立于2013年。主要专注于移动应用领域，提供从咨询 、解决方案、外包服务到IT人才培养的“端到端” 软件及信息服务。</p>
+                            <a href="about-us.html" class="more">查看更多&gt;&gt;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 scul">
+                    <div class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col-xs-6 circle">
+                        <div class="wow bounceInLeft" data-wow-duration="1.2s">
+                            <img src="images/scul1.gif" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 circle">
+                        <div class="wow wobble">
+                            <img src="images/scul2.gif" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 circle">
+                        <div class="wow wobble">
+                            <img src="images/scul3.gif" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 circle">
+                        <div class="wow bounceInRight" data-wow-duration="1.2s">
+                            <img src="images/scul4.gif" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--产品案例-->
+        <div class="row">
+            <div class="col-lg-12 col-xs-12 casesinfo text-center">
+                <div class="wow bounceInDown">
+                    <h3>CASES</h3>
+                    <h3 class="cases">产品案例</h3>
+                </div>
+                <div class="col-lg-12 col-xs-12">
+                    <ul class="list-unstyled list-inline caseslist">
+                        <li class="wow bounceInDown" data-wow-delay="0.3s"><a href="#1">企业级开发</a></li>
+                        <li class="wow bounceInDown" data-wow-delay="0.4s"><a href="#1">移动应用</a></li>
+                        <li class="wow bounceInDown" data-wow-delay="0.5s"><a href="#1">棋牌游戏</a></li>
+                        <li class="wow bounceInDown" data-wow-delay="0.6s"><a href="#1">AR/VR应用</a></li>
+                        <li class="wow bounceInDown" data-wow-delay="0.7s"><a href="#1">人才孵化</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 col-xs-12 hidden-xs">
+                    <div class="pictureSlider poster-main" data-setting='{"width":1000,"height":420,"posterWidth":600,"posterHeight":420,"scale":0.7,"autoPlay":true,"delay":2000,"speed":300,"verticalAlign":"middle"}'>
+                        <div class="poster-btn poster-prev-btn glyphicon glyphicon-chevron-left"></div>
+                        <ul class="poster-list">
+                            <li class="poster-item"><a href="#"><img src="images/case01.jpg"></a></li>
+                            <li class="poster-item"><a href="#"><img src="images/case02.jpg"></a></li>
+                            <li class="poster-item"><a href="#"><img src="images/case03.jpg"></a></li>
+                            <li class="poster-item"><a href="#"><img src="images/case04.jpg"></a></li>
+                            <li class="poster-item"><a href="#"><img src="images/case05.jpg"></a></li>
+                        </ul>
+                        <div class="poster-btn poster-next-btn glyphicon glyphicon-chevron-right"></div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xs-12">
+                    <div class="moreinfo wow bounceInUp" data-wow-delay="0.2s"><a href="product.html" class="btn">more<sup>+</sup></a></div>
+                </div>
+            </div>
+        </div>
+
+        <!--发展历程-->
+        <div class="row development wow flipInY">
+            <div class="col-lg-12 historyinfo">
+                <div class="history wow bounceInDown" data-wow-delay="0.2s">
+                    <span>发</span>
+                    <span>展</span>
+                    <span>历</span>
+                    <span>程</span>
+                </div>
+            </div>
+        </div>
+
+        <!--企业新闻-->
+        <div class="row newsbg">
+            <div class="newsinfo text-center wow bounceInDown">
+                <h3>NEWS</h3>
+                <h3 class="news">企业新闻</h3>
+            </div>
+            <div class="col-lg-4 col-lg-offset-1 col-md-6 col-sm-6">
+                <div class="priseinfo">
+                    <ul class="list-unstyled">
+                        <li class="wow bounceInLeft" data-wow-delay="0.2s"><img src="images/news.jpg" width="100%"/></li>
+                        <li class="wow bounceInLeft" data-wow-delay="0.3s">
+                            <div class="blackbg newsitem">
+                                <span>30<sub>09</sub></span>卓景京--湖南城市学院精英班开班
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-6">
+                <div class="priseinfo">
+                    <ul class="list-unstyled newslist">
+                        <li class="wow bounceInRight" data-wow-delay="0.4s"><div class="newsitem"><span>28<sub>09</sub></span>用友软件联合卓景京举办盛大招聘</div></li>
+                        <li class="wow bounceInRight" data-wow-delay="0.5s"><div class="newsitem"><span>24<sub>08</sub></span>八周年,有你我便是卓景京盛世嘉年华</div></li>
+                        <li class="wow bounceInRight" data-wow-delay="0.6s"><div class="newsitem"><span>13<sub>07</sub></span>卓景京永州校企合作行(二)</div></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="moreinfo wow bounceInUp" data-wow-delay="0.7s"><a href="news.html" class="btn">more<sup>+</sup></a></div>
+        </div>
+
+        <!--合作伙伴-->
+        <div class="row">
+            <div class="col-lg-12 newsinfo text-center cooperation">
+                <div class="wow bounceInDown">
+                    <h3>PARTENERS</h3>
+                    <h3 class="news">合作伙伴</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cooperationinfo">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="0.4s" src="images/partener1.gif"/>
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="0.4s" src="images/partener2.gif"/>
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="0.4s" src="images/partener3.gif"/>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="0.8s" src="images/partener4.gif"/>
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="0.8s" src="images/partener5.gif"/>
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="0.8s" src="images/partener6.gif"/>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="1.2s" src="images/partener7.gif"/>
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="1.2s" src="images/partener8.gif"/>
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="1.2s" src="images/partener9.gif"/>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="1.6s" src="images/partener10.gif"/>
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="1.6s" src="images/partener11.gif"/>
+                    <img class="col-xs-10 col-xs-offset-1 wow bounceInDown" data-wow-duration="1.6s" src="images/partener12.gif"/>
+                </div>
+            </div>
+        </div>
+
+        <!--联系我们-->
+        <div class="row contact">
+            <div class="col-lg-5 col-lg-offset-3 col-xs-12">
+                <h3 class="contactit">联系我们</h3>
+                <div class="contactinfo">
+                    <p>联系人：谭紫燕</p>
+                    <p>联系电话：0731-82063386</p>
+                    <p>邮箱：tanziyan@zkingsoft.com</p>
+                    <p>公司地址：湖南省长沙市高新区麓谷锦园38栋02室</p>
+                    <p>邮编：410013</p>
+                    <p>公司官网：http://www.zkingsoft.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="wow/js/wow.min.js"></script>
+<script src="js/carousel2.js"></script>
+<script>
+    $(function(){
+        Carousel.init($(".pictureSlider"));
+        new WOW().init();
+    });
+</script>
+</html>

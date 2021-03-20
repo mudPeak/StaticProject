@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>   <!--苹果专用-->
+    <title>卓玛名片</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="wow/css/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:768px)" href="css/w768.css"/>
+</head>
+<body>
+    <!--遮罩加载层-->
+    <div id="mask">
+        <div><img src="images/loading.gif" alt=""/></div>
+    </div>
+
+    <!--弹层开始部分-->
+    <!--qq部分-->
+    <div class="tlayer tlayer1">
+        <a><img src="picture/qq.gif" alt=""/></a>
+    </div>
+    <!--微信客服二维码-->
+    <div class="tlayer tlayer2">
+        <a onclick="exampleModa2()"><img src="picture/kefuqrcode2.png" alt=""/></a>
+    </div>
+    <div class="modal fade" id="exampleModa2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel2">微信客服二维码</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="picture/kefu.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--微信公众号-->
+    <div class="tlayer tlayer3">
+        <a onclick="exampleModa3()"><img src="picture/kefuqrcode.png" alt=""/></a>
+    </div>
+    <div class="modal fade" id="exampleModa3">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel3">微信公众号</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="picture/gotop.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--弹层结束部分-->
+
+    <!--导航条-->
+    <div class="navbar navlist" role="navigation">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-12">
+                    <button type="button" class="navbar-toggle collapsed span-sty" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                        <span class="glyphicon glyphicon-align-justify"></span>
+                    </button>
+                  <a class="navbar-brand img-sty" href="#"><img src="images/nav-logo.png" width="130px" alt=""/></a>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 pull-right navinfo">
+                    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                        <ul class="nav navbar-nav pull-right">
+                            <li><a href="#">首页</a></li>
+                            <li class="active"><a href="#introduce">功能介绍</a></li>
+                            <li><a href="#product">产品亮点</a></li>
+                            <li><a href="#teamGroup">团队</a></li>
+                            <li><a href="#interface">产品界面</a></li>
+                            <li><a href="#use">立即试用</a></li>
+                            <li><a href="#relation">联系我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--轮播切换部分开始-->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- 索引控制 -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+        <!-- 轮播部分 -->
+        <div class="carousel-inner" role="listbox" id="carousel">
+            <!--轮播项目1-->
+            <div class="item active slider1">
+                <div class="carousel-caption">
+                    <div><img src="picture/logo.png" width="130px" alt=""/></div>
+                    <div>
+                        <img class="hidden-xs" src="images/divider2.png" alt=""/>
+                        <div class="info wow flipInY"><span>卓玛</span>名片</div>
+                        <img class="hidden-xs" src="images/divider2.png" alt=""/>
+                    </div>
+                    <div class="wrap wow pulse">
+                        <p>让销售变得更简单</p>
+                    </div>
+                    <div class="login-info0">
+                        <div id="carousel-form">
+                            <form>
+                                <div class="wow bounceInRight">
+                                    <div class="login-txt"><input type="text" name="username" placeholder="用户名" maxlength="20"/></div>
+                                    <div class="login-txt"><input type="password" name="pwd" placeholder="密码" maxlength="20"/></div>
+                                    <div class="login-check text-left">
+                                        <input type="checkbox" id="checkbtn" checked/>
+                                        <label for="checkbtn" data-name="记住密码"><span class="glyphicon glyphicon-ok"></span></label>
+                                    </div>
+                                </div>
+                                <div class="login-btn wow bounceInLeft"><a href="javascript:;">登录</a></div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="phone1 wow bounceInUp" data-wow-delay="0.5s">
+                        <img src="images/phone1.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <!--轮播项目2-->
+            <div class="item slider2">
+                <div class="carousel-caption">
+                    <div><img src="picture/logo.png" width="130px" alt=""/></div>
+                    <div>
+                        <img class="hidden-xs" src="images/divider2.png" alt=""/>
+                        <div class="info wow flipInY"><span>卓玛</span>名片</div>
+                        <img class="hidden-xs" src="images/divider2.png" alt=""/>
+                    </div>
+                    <div class="wrap wow pulse">
+                        <p>一键保存至手机通讯录</p>
+                        <p>一键通话 一键发送短信功能</p>
+                    </div>
+                    <div class="login-info1">
+
+                    </div>
+                    <div class="phone2 wow bounceInUp" data-wow-delay="0.5s">
+                        <img src="images/phone2.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <!--轮播项目3-->
+            <div class="item slider3">
+                <div class="carousel-caption">
+                    <div><img src="picture/logo.png" width="130px" alt=""/></div>
+                    <div>
+                        <img class="hidden-xs" src="images/divider2.png" alt=""/>
+                        <div class="info wow flipInY"><span>卓玛</span>名片</div>
+                        <img class="hidden-xs" src="images/divider2.png" alt=""/>
+                    </div>
+                    <div class="wrap wow pulse">
+                        <p>即刻，让世界认识你！</p>
+                        <p>专属你的名片</p>
+                    </div>
+                    <div class="login-info2">
+
+                    </div>
+                    <div class="phone3 wow bounceInUp" data-wow-delay="0.5s">
+                        <img src="images/phone3.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <!--轮播项目4-->
+            <div class="item slider4">
+                <div class="carousel-caption">
+                    <div><img src="picture/logo.png" width="130px" alt=""/></div>
+                    <div>
+                        <img class="hidden-xs" src="images/divider2.png" alt=""/>
+                        <div class="info wow flipInY"><span>卓玛</span>名片</div>
+                        <img class="hidden-xs" src="images/divider2.png" alt=""/>
+                    </div>
+                    <div class="wrap wow pulse">
+                        <p>一个包罗万象的操作平台</p>
+                        <p>更好的兼容性、更便捷的操作性、更直观的数据分析</p>
+                    </div>
+                    <div class="login-info3">
+
+                    </div>
+                    <div class="phone4 wow bounceInUp" data-wow-delay="0.5s">
+                        <img src="images/phone4.png" width="80%" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--左右方向控制 -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--轮播切换部分结束-->
+
+    <div class="container-fluid box">
+        <!--功能介绍-->
+        <div class="row" id="introduce">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="use text-center">
+                    <div class="introduce">功能介绍</div>
+                    <p>一站式营销策划、培训、推广、资源整合服务</p>
+                    <img class="hidden-xs" src="images/divider.png" alt=""/>
+                </div>
+            </div>
+        </div>
+        <!--功能介绍主体内容-->
+        <div class="row cont-info">
+            <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <div class="wow bounceIn" data-wow-delay="0.8s">
+                    <img src="picture/1.png" width="100%" alt=""/>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 cont-sty">
+                <div class="media message wow bounceInRight" data-wow-duration="0.6s">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object media-pic" src="picture/cog-icons.png" width="45px" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body gray">
+                        <h4 class="media-heading">【数字化更环保】</h4>
+                        <div>基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</div>
+                    </div>
+                </div>
+                <div class="media message wow bounceInRight" data-wow-duration="0.6s">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object media-pic" src="picture/brush-icons.png" width="45px" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body gray">
+                        <h4 class="media-heading">【交换分享更便捷】</h4>
+                        <div>拇指点一点，好友即可把你的名片信息保存至手机。还可通过邮件、短信、微博、微信等方式一键分享给好友。</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 cont-sty">
+                <div class="media message wow bounceInRight" data-wow-duration="0.8s">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object media-pic" src="picture/pencil-icons.png" width="45px" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body gray">
+                        <h4 class="media-heading">【海量精品模板】</h4>
+                        <div>根据行业、性别、年龄、职业等不同需求设计大量精美名片模板，总有一款符合你的身份，能秀出你的个人魅力。</div>
+                    </div>
+                </div>
+                <div class="media message media-bottom wow bounceInRight" data-wow-duration="0.8s">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object media-pic" src="picture/mobile-icons.png" width="45px" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body gray">
+                        <h4 class="media-heading">【管理方便】</h4>
+                        <div>名片信息随时随地任意修改、省去因信息变更而重新设计、印刷等繁杂工序。好友只需访问你的微名片地址，即可获取你的最新联系方式。再也不用担心联系方式变更，导致与好友失去联系。</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--产品亮点-->
+        <div class="row bggreen" id="product">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="use text-center">
+                    <div class="introduce white">产品亮点</div>
+                    <p class="gray txt-lf">在移动互联网实现了企业名片和个人名片共存，而且操作简单，传播快,强大的功能将成为商家不可或缺的依赖性产品</p>
+                    <img class="hidden-xs" src="images/divider.png" alt=""/>
+                </div>
+            </div>
+        </div>
+        <!--产品亮点主体内容-->
+        <div class="row bggreen cont-info">
+            <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-12">
+                <div class="media message wow bounceInLeft" data-wow-duration="0.8s">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object media-pic" src="picture/thumbsup-icons.png" width="45px" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body gray white">
+                        <h4 class="media-heading txt">视觉设计</h4>
+                        <div>基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</div>
+                    </div>
+                </div>
+                <div class="media message wow bounceInLeft" data-wow-duration="0.8s">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object media-pic" src="picture/html5-icons.png" width="45px" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body gray white">
+                        <h4 class="media-heading txt">互动转发</h4>
+                        <div>基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="media message wow bounceInLeft" data-wow-duration="0.6s">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object media-pic" src="picture/diamond-icons.png" width="45px" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body gray white">
+                        <h4 class="media-heading txt">便捷美观</h4>
+                        <div>基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</div>
+                    </div>
+                </div>
+                <div class="media message wow bounceInLeft" data-wow-duration="0.6s">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="media-object media-pic" src="picture/video-icons.png" width="45px" alt="">
+                        </a>
+                    </div>
+                    <div class="media-body gray white">
+                        <h4 class="media-heading txt">微信功能</h4>
+                        <div>基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="media-phone wow bounceIn" data-wow-duration="0.8s">
+                    <img src="picture/2.png" width="100%" alt=""/>
+                </div>
+            </div>
+        </div>
+
+        <!--潜力巨大、引领潮流-->
+        <div class="row action">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12 text-center trend cont-info">
+                <h4 class="white">潜力巨大、引领潮流</h4>
+                <p>本产品已经推出、以其强大、实用的功能，将改变企业和个人交换名片的习惯</p>
+                <p>时尚、实用、创新，引领交际新潮流</p>
+            </div>
+            <div class="col-lg-6 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-2">
+                <div class="trend-btn1 wow bounceInLeft" data-wow-duration="0.8s">
+                    <a href=""><span class="glyphicon glyphicon-plus"></span>了解更多</a>
+                </div>
+                <div class="trend-btn2 wow bounceInRight" data-wow-duration="0.8s">
+                    <a href=""><span class="glyphicon glyphicon-save"></span>立即试用</a>
+                </div>
+            </div>
+        </div>
+
+        <!--我们的团队-->
+        <div class="row backinfo" id="teamGroup">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="use text-center wow bounceInDown" data-wow-delay="0.4s">
+                    <div class="introduce">我们的团队</div>
+                    <p class="gray txt-intr">移动互联网正在改变我们身边的一切，每一个行业都应该从中受益，我们也希望和你一起推动这种进步</p>
+                    <img class="hidden-xs" src="images/divider.png" alt=""/>
+                </div>
+            </div>
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="back filter wow slideInRight" data-wow-duration="1s" id="hide-box1">
+                    <img src="picture/1.png" width="100%" alt=""/>
+                    <div class="hide-box">当前为第一站简要</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
+                <div class="back filter wow slideInUp" data-wow-duration="0.6s" id="hide-box2">
+                    <img src="picture/2.png" width="100%" alt=""/>
+                    <div class="hide-box">当前为第二站简要</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2">
+                <div class="back filter wow slideInLeft" data-wow-duration="0.6s" id="hide-box3">
+                    <img src="picture/3.png" width="100%" alt=""/>
+                    <div class="hide-box">当前为第三站简要</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-lg-offset-5 col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-5 col-xs-6 col-xs-offset-3">
+                <div class="back filter wow slideInRight" data-wow-duration="0.6s" id="hide-box4">
+                    <img src="picture/4.png" width="100%" alt=""/>
+                    <div class="hide-box">当前为第四站简要</div>
+                </div>
+            </div>
+        </div>
+
+        <!--更多功能，完美呈現-->
+        <div class="row bggreen">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="use text-center">
+                    <div class="introduce white">更多功能，完美呈现</div>
+                    <p class="gray">看到的是细节，感受到的是用心！</p>
+                    <img class="hidden-xs" src="images/divider.png" alt=""/>
+                </div>
+            </div>
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 cont-info">
+                    <div class="media message wow bounceInLeft">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object media-pic" src="picture/pc-icons.png" width="45px" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body gray white">
+                            <h4 class="media-heading txt">海量模板，智能匹配</h4>
+                            <div>基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</div>
+                        </div>
+                    </div>
+                    <div class="media message wow bounceInLeft">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object media-pic" src="picture/flag-icons.png" width="45px" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body gray white">
+                            <h4 class="media-heading txt">丰富的编辑器功能</h4>
+                            <div>基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</div>
+                        </div>
+                    </div>
+                    <div class="media message wow bounceInLeft">
+                        <div class="media-left">
+                            <a href="#">
+                                <img class="media-object media-pic" src="picture/search-icons.png" width="45px" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body gray white media-bottom">
+                            <h4 class="media-heading txt">实时查看访问统计数据</h4>
+                            <div>基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="cont-info wow bounceIn" data-wow-delay="0.6s">
+                        <img src="picture/3.png" width="100%" alt=""/>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 cont-info">
+                    <div class="info-box">
+                        <div class="media message wow bounceInRight">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object media-pic" src="picture/rocket-icons.png" width="45px" alt="">
+                                </a>
+                            </div>
+                            <div class="media-body gray white">
+                                <h4 class="media-heading txt">能祝福贺卡 高调送祝福</h4>
+                                <div>基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</div>
+                            </div>
+                        </div>
+                        <div class="media message wow bounceInRight">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object media-pic" src="picture/coffee-icons.png" width="45px" alt="">
+                                </a>
+                            </div>
+                            <div class="media-body gray white">
+                                <h4 class="media-heading txt">留言功能</h4>
+                                <div>基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</div>
+                            </div>
+                        </div>
+                        <div class="media message wow bounceInRight">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object media-pic" src="picture/papers-icons.png" width="45px" alt="">
+                                </a>
+                            </div>
+                            <div class="media-body gray white media-bottom">
+                                <h4 class="media-heading txt">地图位置导航</h4>
+                                <div>基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--视频部分-->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <img src="images/video.jpg" width="100%" alt=""/>
+            </div>
+        </div>
+
+        <!--产品界面-->
+        <div class="row interface" id="interface">
+            <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-4 col-xs-12">
+                <div class="show text-center">
+                    <div class="txt-green">功能界面尽在掌握</div>
+                    <div class="gray">交互界面简洁大方，易于操作</div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="multiple wow bounceIn" data-wow-delay="0.8s">
+                    <img src="images/iphone.png" width="100%" alt=""/>
+                    <img src="picture/1.jpg" width="30%" alt=""/>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <div class="exhibition cont-info">
+                    <div class="gray">基于移动互联网和二维码技术</div>
+                    <p class="gray">微名片基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保</p>
+                    <div class="text-left green icons">
+                        <a href=""><span class="glyphicon glyphicon-menu-left"></span></a>
+                        <a href=""><span class="glyphicon glyphicon-menu-right"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--解决方案-->
+        <div class="row bggray">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="text-center programe bggreen">
+                    <div class="wow bounceInUp">
+                        <div>卓玛名片提供行业一体化营销解决方案</div>
+                        <div class="programe-info">我们致力于通过移动互联网来改变整个传统软件行业，做智慧营销领导者</div>
+                        <img class="hidden-xs" src="images/divider.png" alt=""/>
+                    </div>
+                    <p class="programe-txt">微名片基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保，微名片基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保，微名片基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保，微名片基于移动互联网和二维码技术、名片电子化、信息数字化、无需印刷、比纸质名片更环保。</p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+                <div class="text-center white total-info">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6"><div class="scroll-wheel"><span>13121</span><div>用户数</div></div></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6"><div class="scroll-wheel"><span>12057</span><div>注册渠道用户</div></div></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6"><div class="scroll-wheel"><span>26038</span><div>登录使用次数</div></div></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6"><div class="scroll-wheel"><span>238</span><div>持续更新周期</div></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!--立即试用-->
+        <div class="row website text-center" id="use">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="gray cont-info">
+                    <div class="hidden-xs">欢迎使用卓玛名片移动互联网营销平台，卓玛名片简约而不简单，丢掉繁琐与复杂的纸张名片</div>
+                    <div>独一无二的排版设计体现您与您企业高端潮流和尊贵身份</div>
+                    <img class="hidden-xs" src="images/divider.png" alt=""/>
+                </div>
+                <div class="website-info">
+                    <img src="picture/1.jpg" alt=""/>
+                    <div class="author"><span>JIMI</span><span>CEO</span></div>
+                    <div class="green"><a href="">www.zhuoma360.com</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!--联系我们-->
+        <div class="row" id="relation">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="use text-center">
+                    <div class="introduce">联系我们</div>
+                    <p class="bgorange">免费赠送9800元《行业全网营销解决方案》</p>
+                    <img class="hidden-xs" src="images/divider.png" alt=""/>
+                </div>
+            </div>
+        </div>
+        <!--联系我们主体内容-->
+        <div class="row contact">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="text-center contact-info">
+                        <div class="location"><span class="glyphicon glyphicon-map-marker"></span></div>
+                        <div>广东省珠海市香洲区</div>
+                        <div>凤凰北路2040号农行商业大夏905室</div>
+                        <div class="myinfo">Tell:<a href="javascript:;">0756-3325698</a></div>
+                        <div class="myinfo">客服QQ:<a href="javascript:;">2130846081</a></div>
+                        <div class="myinfo">Email:<a href="javascript:;">nhshiyuan@163.com</a></div>
+                        <div class="contact-btn"><a href="">在地图查看我们的位置</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="contact-info text-btn">
+                        <div><input type="text" placeholder="Email"/></div>
+                        <div><input type="text" placeholder="Name"/></div>
+                        <div><input type="text" placeholder="Subject"/></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="contact-info leave-word">
+                        <textarea name="myMessage" id="myMessage" rows="5" placeholder="Your Message"></textarea>
+                        <div class="message-btn"><a href="">发送留言信息</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--卓码名片底部-->
+        <div class="row footer cont-info">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <div class="media-phone wow bounceIn" data-wow-delay="0.3s">
+                        <img src="picture/4.png" width="100%" alt=""/>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-lg-offset-1 col-md-6 col-md-offset-2 col-sm-6 col-sm-offset-2 col-xs-12">
+                    <div class="footer-tit">快来使用卓码名片带来的全新方式的销售、服务和推广体验</div>
+                    <div class="footer-cont">一个保罗万象的操作平台，可以不限行业的满足您对微信平台的基本使用需求，通过展示、推广、互动、成交的各个环节快速进入微信营销轨道，它的功能远超你想象！</div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 footer-info">
+                        <div class="footer-email"><input type="text" placeholder="Email"/></div>
+                        <div class="message-btn"><a href="">订阅邮件</a></div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="copy">
+                            <div><span class="white">&copy; 2010-2025</span> 珠海风速网络科技有限公司 【版权所有】 备案号 粤<span class="white">ICP</span>备<span class="white">xxxxxxx</span>号</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="wow/js/wow.min.js"></script>
+<script src="js/index.js"></script>
+</html>

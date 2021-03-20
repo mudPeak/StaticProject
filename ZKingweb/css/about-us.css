@@ -1,0 +1,110 @@
+*{padding: 0;margin: 0;}
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+h2,h3,div{padding: 0;margin: 0;}
+ul,li{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "微软雅黑";
+    letter-spacing: 1px;
+}
+.mynavbar{
+    border-bottom-width: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+#mymenu ul li a:hover{
+    color:#e7bc0e;
+}
+.w{
+    background: #191919;
+}
+.bg{
+    overflow: hidden;
+    height: 2010px;
+    background: url("../images/about-us.png") no-repeat center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.infos{
+    color: #ffffff;
+    font-size: 16px;
+    position: relative;
+    left: 0;
+    top:0;
+}
+.companies-introduction{
+    position: absolute;
+    left:34%;
+    top:5.5%;
+}
+h3{
+    color: #efaa04;
+    height: 50px;
+    line-height: 50px;
+}
+p{
+    margin: 25px 0;
+}
+.companies-item{
+    position: absolute;
+}
+.companies-item p{
+    margin-top: 10px;
+}
+.companies-item1{
+     left:27.5%;
+     top:20.2%;
+ }
+.companies-item2{
+    left:22.5%;
+    top:32.2%;
+}
+.companies-item3{
+    left:18%;
+    top:48%;
+}
+.companies-item-con{
+    margin-top: 15px;
+}
+.companies-item3 span{
+    color:  #fcc91f;
+}
+.companies-item3 span::before{
+    content: "";
+    display: inline-block;
+    background: #fcc91f;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.companies-item4{
+     left:12.5%;
+     top:70.8%;
+ }
+.companies-item5{
+    left:5.5%;
+    top:88.2%;
+}
+footer{
+    height: 40px;
+    line-height: 40px;
+    background: #191919;
+    color: #495463;
+    font-size: 14px;
+    text-align: center;
+}
+@media (max-width:768px){
+   p{
+       font-size: 14px;
+   }
+    .companies-item4 p{
+        max-height: 262px;
+        overflow: hidden;
+    }
+
+}

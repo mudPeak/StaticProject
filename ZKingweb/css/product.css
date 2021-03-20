@@ -1,0 +1,118 @@
+.mynavbar{
+    border-bottom-width: 0;
+    border-radius: 0;
+}
+#mymenu ul li a:hover{
+    color:#e7bc0e;
+}
+.bg{
+    background: rgb(30,30,30);
+}
+.product-cases{
+    padding:20px 0;
+    overflow:hidden;
+}
+
+.product-cases li a{
+    display: block;
+    border:1px solid #e7bc0e;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size:16px;
+    margin:10px 0;
+    color:#efaa04;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.product-cases li:hover a{
+    color:#fff;
+    background-color: #e7bc0e;
+}
+
+#imglist{
+    margin-right: 0;
+    margin-left: -45px;
+}
+.product-img{
+    clear:both;
+    overflow: hidden;
+    margin-bottom:70px;
+}
+.product-img li{
+    margin-bottom: 30px;
+    height:240px;
+    overflow: hidden;
+}
+.product-img li>div{
+    padding:30px;
+    position:relative;
+    width: 100%;
+    height:100%;
+}
+.product-img li>div>img{
+    display: block;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.product-img li>div>span{
+    color:#fff;
+    font-size:25px;
+    display: block;
+    line-height: 50px;
+    text-align: right;
+    font-weight: bold;
+    background: transparent;
+    position:absolute;
+    left:0;
+    width: 100%;
+    bottom:0px;
+    z-Index:1;
+}
+.infodiv{
+    display:none;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.8);
+    top:0;
+    left:0;
+    z-index:2;
+    color:#ffffff;
+    position: absolute;
+    padding:0 24px;
+    overflow: auto;
+}
+.infodiv a{
+    color:#fff;
+}
+.infodiv h3{
+    color:#ff8e0e;
+    font-size:30px;
+}
+.infodiv p{
+    font-size:16px;
+    margin-top:15px;
+}
+.product-img li:hover .infodiv{
+    cursor: pointer;
+    display: block;
+}
+
+@media screen and (max-width:768px){
+    .infodiv p{
+        font-size:14px;
+    }
+    .product-cases li a{
+        height: 40px;
+        line-height: 40px;
+    }
+    .product-cases li:nth-child(4){
+        margin-left: 65px;
+    }
+}

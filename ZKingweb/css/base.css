@@ -1,0 +1,76 @@
+@media (min-width:768px){
+    .nav-fluid {
+        height: 100px;
+    }
+    .nav-fluid .navbar-header img{
+        margin-top: 15px;
+        margin-left: -50px;
+        width:100%;
+    }
+    .nav-list {
+        margin-top: -15px;
+        margin-right: -50px;
+    }
+    .nav-list>li>a{
+        font-size: 16px;
+    }
+}
+@media (min-width: 1000px) {
+    .nav-fluid {
+        height: 120px;
+    }
+    .nav-list {
+        margin-top:50px;
+        margin-right: 0;
+    }
+    .nav-fluid .navbar-header img{
+        margin-top: 20px;
+        margin-left: 0;
+        width: 216px;
+        height: 50px;
+    }
+}
+@media (max-width:768px){
+    .nav-fluid {
+        height: 80px;
+    }
+    .nav-fluid .navbar-header .f-w{
+        margin-top: 25px;
+    }
+    .nav-list{
+        background: #000000;
+    }
+
+}
+.nav-fluid{
+    border-radius: 0;
+    background:  url("../images/top_bg.png") repeat-x;
+    background-size: cover;
+    margin: 0;
+    border: none;
+}
+.nav-list {
+    float: right;
+    border: none;
+    position: relative;
+    z-index: 100;
+}
+.nav-list>li {
+    float: left;
+    margin-top: -10px;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+.nav-list>li>a {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #efaa04;
+}
